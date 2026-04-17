@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/aryan249123-rgb/maven-demo.git'
+                git branch: 'main', url: 'https://github.com/aryan249123-rgb/FatLab'
             }
         }
 
